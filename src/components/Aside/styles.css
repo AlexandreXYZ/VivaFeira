@@ -1,0 +1,36 @@
+.aside__topic,
+.aside__suport {
+	font-weight: bold;
+	padding: 0.4rem;
+	margin-bottom: 1rem;
+	border: 1px solid #cccccc;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	font-size: 30px;
+	background-color: #fff;
+	box-sizing: border-box;
+	display: block;
+	text-align: left;
+	width: 100%;
+	padding-inline: 1rem;
+	color: #161832;
+	cursor: pointer;
+}
+.author {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.author:first-child {
+	margin-top: 5px;
+}
+.author__name {
+	font-size: 20px;
+	margin-left: 0.8rem;
+	color: #114593;
+}
+.aside__suport {
+	border: none;
+	box-shadow: none;
+	font-size: 22px;
+}

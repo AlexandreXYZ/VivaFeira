@@ -1,0 +1,26 @@
+.footerContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	flex-basis: 200px;
+	position: sticky;
+	top: 100%;
+	background-color: green;
+	width: 100%;
+}
+
+.footer__sectionContainer {
+	display: flex;
+}
+
+.footer__section {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+
+.section__title {
+	font-weight: bold;
+}

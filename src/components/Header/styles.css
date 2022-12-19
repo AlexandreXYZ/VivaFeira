@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	background-color: #6a6d89;
+	text-align: center;
+	width: 100%;
+	min-height: 120px;
+	height: 120px;
+	padding-inline: 1rem;
+}
+
+.container__topics {
+	display: flex;
+	margin-left: 5%;
+}
+
+.topic {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	text-decoration: none;
+	margin-inline: 33px;
+	font-size: 22px;
+}
